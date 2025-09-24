@@ -1,4 +1,4 @@
-# JavaScript + Advanced CSS/MUI + Figma — 6‑Week Bootcamp Starter
+# Sandbox
 
 This repo mirrors your 6‑week plan. Each week has:
 
