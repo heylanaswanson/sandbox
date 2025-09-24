@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Calculator",
+    "desc": "Week 1 mini\u2011project",
+    "url": "../weeks/week-01/mini-project-01-calculator/index.html",
+    "tags": [
+      "JS",
+      "DOM"
+    ]
+  },
+  {
+    "title": "Grades Tracker",
+    "desc": "Week 2 mini\u2011project",
+    "url": "../weeks/week-02/mini-project-02-student-grades-tracker/index.html",
+    "tags": [
+      "Arrays",
+      "Reduce"
+    ]
+  },
+  {
+    "title": "Profile Cards",
+    "desc": "Week 3 mini\u2011project",
+    "url": "../weeks/week-03/mini-project-03-profile-card-generator/index.html",
+    "tags": [
+      "Templates",
+      "DOM"
+    ]
+  },
+  {
+    "title": "Shopping List Merger",
+    "desc": "Week 4 mini\u2011project",
+    "url": "../weeks/week-04/mini-project-04-shopping-list-merger/index.html",
+    "tags": [
+      "Sets",
+      "Strings"
+    ]
+  },
+  {
+    "title": "Library System",
+    "desc": "Week 5 mini\u2011project",
+    "url": "../weeks/week-05/mini-project-05-library-system-(modules)/index.html",
+    "tags": [
+      "Modules",
+      "Classes"
+    ]
+  },
+  {
+    "title": "Dog API Viewer",
+    "desc": "Week 6 mini\u2011project",
+    "url": "../weeks/week-06/mini-project-06-dog-api-viewer/index.html",
+    "tags": [
+      "Fetch",
+      "Async"
+    ]
+  }
+]

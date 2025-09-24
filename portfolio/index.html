@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lana Swanson — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- React via CDN for quick start -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <meta name="description" content="Lana Swanson — Frontend developer focused on JavaScript, Advanced CSS, MUI, and Figma-to-code.">
+  <meta property="og:title" content="Lana Swanson — Frontend Developer">
+  <meta property="og:description" content="Projects, UI work, and contact info.">
+  <meta property="og:image" content="images/og-image.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">LS</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="root"></main>
+  <section id="contact-form-section" class="section container">
+    <h2>Contact</h2>
+    <form name="contact" method="POST" action="/portfolio/success.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      <p style="display:none">
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
+      <p><label>Name<br/><input name="name" required /></label></p>
+      <p><label>Email<br/><input name="email" type="email" required /></label></p>
+      <p><label>Message<br/><textarea name="message" rows="5" required></textarea></label></p>
+      <p><button type="submit">Send</button></p>
+      <p style="font-size:.9rem">Prefer email? <a href="mailto:bluecircledev@gmail.com">bluecircledev@gmail.com</a></p>
+      <details style="margin-top:1rem"><summary>Use Formspree instead</summary>
+        <p>Replace the form tag with:<br/>
+        <code>&lt;form action="https://formspree.io/f/YOUR_ID" method="POST"&gt;...&lt;/form&gt;</code></p>
+      </details>
+    </form>
+  </section>
+  <footer class="site-footer">© Lana Swanson</footer>
+  <script src="app.js"></script>
+</body>
+</html>

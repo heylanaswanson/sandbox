@@ -1,0 +1,16 @@
+{
+  "name": "js-css-mui-figma-bootcamp-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "shots": "node scripts/screenshot-projects.mjs --base http://localhost:8000"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "puppeteer": "^23.7.0"
+  }
+}
